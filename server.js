@@ -70,7 +70,7 @@ app.get('/recipe', (req,res)=>{
 })
 
 app.get('/viewrecipe',(req,res)=>{
-    console.log({data: myObj});//Chekcing what my obj looks like
+    console.log({data: myObj});//TEMPORARY: Chekcing what my obj looks like
     res.render("viewrecipe",{data: myObj});
 })
 
